@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Budgety</title>
+</head>
+<body>
+    <div class="top">
+        <div class="budget-title">
+            <p style="color : #fff;" id="month-id">Avialable budget in %month%</p>
+            <p class="net-sum" id="net-sum-id">0</p>
+            <div class="income-total" id="income-total-id">
+                <p class="income">INCOME</p>
+                <p class="net-income" id="net-income-id">0</p>
+                <!-- <p class="net-income-percen">0%</p> -->
+            </div>
+            <div class="expenditure-total" id="expenditure-total-id">
+                <p class="expenditure">INCOME</p>
+                <p class="net-expenditure" id="net-expenditure-id">0</p>
+                <p class="net-expenditure-percen">0%</p>
+            </div>
+        </div>
+    </div>
+    <div class="middle">
+        <div class="add-element">
+            <select name="add-type" class="add-type">
+                <option value="inc" selected>+</option>
+                <option value="exp">-</option>
+            </select>
+            <input type="text" class="add-description" placeholder="Add description">
+            <input type="number" class="add-value" placeholder="Value">
+            <button type="submit" class="add-sub"><i class="fa fa-check-circle"></i></button>
+        </div>
+    </div>
+    <div class="bottom">
+        <div class="income-list">
+            <div class="head-0">INCOME</div>
+            <div class="inco">
+                <!-- <div class="income-source" id="income-0">
+                    <div class="description-0" id="des-0">Salary</div>
+                    <div class="value-0" id="value-0">150000</div>
+                    <div class="delete-0" id="delete-0"><i class="fa fa-times-circle-o"></i></div>
+                </div>
+                <div class="income-source" id="income-1">
+                    <div class="description-0" id="des-0">Salary fkqdgjtk</div>
+                    <div class="value-0" id="value-0">15000000s</div>
+                    <button class="delete-0" id="delete-0"><i class="fa fa-times-circle-o"></i></button>
+                </div> -->
+            </div>
+        </div>
+        <div class="expense-list">
+            <div class="head-1">EXPENSE</div>
+            <div class="expe">
+                <!-- <div class="expense-source" id="expense-0">
+                    <div class="description-1" id="des-1">House</div>
+                    <div class="value-1" id="value-1">2500000</div>
+                    <div class="delete-1" id="delete-1"><i class="fa fa-times-circle-o"></i></div>
+                </div>
+                <div class="expense-source" id="expense-0">
+                    <div class="description-1" id="des-1">Car</div>
+                    <div class="value-1" id="value-1">1200000</div>
+                    <button class="delete-1" id="delete-1"><i class="fa fa-times-circle-o"></i></button>
+                </div> -->
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
