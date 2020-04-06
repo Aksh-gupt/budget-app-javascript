@@ -11,7 +11,7 @@ body{
     width : 100%;
     align-content: center;
     background-color : #ccc;
-    background-image : url('C:/Users/Akshat Gupta/Pictures/Saved Pictures/Beautiful-Flower-Field-Nature-HD-Photos-620x349.jpg');
+    background-image : url('./img/Beautiful-Flower-Field-Nature-HD-Photos-620x349.jpg');
     background-size : cover;
 }
 
